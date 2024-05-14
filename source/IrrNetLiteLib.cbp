@@ -39,7 +39,7 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add directory="E:/GitHub/HarchIrrNetLite/include/" />
+			<Add directory="../include/" />
 			<Add directory="enet/include" />
 			<Add directory="zlib" />
 		</Compiler>
@@ -151,10 +151,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="zlib/zutil.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

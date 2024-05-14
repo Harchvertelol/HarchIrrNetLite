@@ -41,13 +41,13 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add directory="E:/GitHub/HarchIrrNetLite/include/" />
+			<Add directory="../include/" />
 			<Add directory="enet/include" />
 			<Add directory="zlib" />
 		</Compiler>
 		<Linker>
-			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libws2_32.a" />
-			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libwinmm.a" />
+			<Add library="libws2_32.a" />
+			<Add library="libwinmm.a" />
 		</Linker>
 		<Unit filename="../include/CEncryption.h" />
 		<Unit filename="../include/CNetManager.h" />
@@ -158,10 +158,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="zlib/zutil.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
